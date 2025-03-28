@@ -9,12 +9,12 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Fontground
+  - Boundaries
   - Water
   - UI
   - Player
-  - Enemy
-  - 
+  - Enemies
+  - Enemies_Ground
   - 
   - 
   - 
@@ -42,17 +42,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 3183270489
+  - name: BackGround
+    uniqueID: 1404553521
     locked: 0
-  - name: Object
-    uniqueID: 3915489733
+  - name: Objects
+    uniqueID: 573737283
     locked: 0
-  - name: Fontground
-    uniqueID: 3482447931
+  - name: ForceGround
+    uniqueID: 4188224165
     locked: 0
   - name: UI
-    uniqueID: 4272444347
+    uniqueID: 3808064807
     locked: 0
   m_RenderingLayers:
   - Default
