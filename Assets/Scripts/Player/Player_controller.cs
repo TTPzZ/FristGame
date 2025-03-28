@@ -25,6 +25,7 @@ public class Player_controller : MonoBehaviour
     void Start()
     {
         Health = MaxHealth;
+        UI.Instance.UpdateHealthBar();
     }
     void Update()
     {
@@ -54,6 +55,8 @@ public class Player_controller : MonoBehaviour
     public void TakeDamge(float damage)
     {
         Health -= damage;
+        UI.Instance.UpdateHealthBar();
+
         if(Health <= 0)
         {
             // Die();
